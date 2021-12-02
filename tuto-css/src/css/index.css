@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply border-b border-gray-700 w-full py-2 px-3 text-gray-700 shadow-inner;
+}
+
+.input:focus {
+  @apply outline-none;
+}
